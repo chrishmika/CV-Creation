@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+body {
+  background: black;
+  width: 100%;
+}
+
+.container {
+  background: #fbf8f4;
+  width: 900px;
+  margin: auto;
+}
+
+.face-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 200px;
+  border: 3px solid white;
+  outline: none;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.photo-description {
+  width: 400px;
+  margin: 10px 0;
+}
+
+button {
+  width: 140px;
+  height: 70px;
+  font-size: 18px;
+  border-radius: 50px;
+  background: none;
+  box-shadow: 0px 0px 5px 0px black;
+  margin-right: 10px;
+}
+
+button:hover {
+  border: 2px solid purple;
+}
+
+.what-i-do,
+.Testimonials-title,
+.clients-title,
+.facts-title {
+  margin: 10% 10% 0% 10%;
+  text-decoration: underline;
+}
+
+.what-im-doing,
+.testimonials,
+.clients,
+.facts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 2% 10% 10% 10%;
+}
+
+.things-i-do {
+  width: 300px;
+}
+
+.testimonial-item {
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 130px;
+  font-size: 25px;
+}
+
+.fact-item {
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 200px;
+  padding: 20px;
+}
+
+hr {
+  border: 0.5px solid rgba(0, 0, 0, 0.244);
+  width: 75%;
+  margin: auto;
+}
+
+.facts {
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+i {
+  font-size: small;
+}
+.icons {
+  width: 35px;
+}
+
+.client-icons {
+  width: 55px;
+}
