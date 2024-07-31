@@ -12,7 +12,7 @@ body {
 
 .container {
   background: #fbf8f4;
-  width: 1200px;
+  width: 1000px;
   margin: auto;
 }
 
@@ -35,7 +35,8 @@ body {
 
 .photo-description {
   width: 400px;
-  margin: 10px 0;
+  margin: 18px 0;
+  font-size: 18px;
 }
 
 button {
@@ -67,7 +68,9 @@ button:hover {
   display: flex;
   justify-content: center;
   gap: 20px;
+  font-size: 18px;
   margin: 2% 10% 10% 10%;
+  text-wrap: balance;
 }
 
 .things-i-do {
@@ -118,4 +121,10 @@ i {
 
 .client-icons {
   width: 55px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(66, 65, 65);
 }
