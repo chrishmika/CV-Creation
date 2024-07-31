@@ -81,6 +81,7 @@ button:hover {
 ul {
   list-style-type: none;
 }
+
 li {
   display: inline-flex;
   justify-content: space-between;
@@ -106,9 +107,11 @@ hr {
   padding-bottom: 50px;
   margin-bottom: 0;
 }
+
 i {
   font-size: small;
 }
+
 .icons {
   width: 35px;
 }
